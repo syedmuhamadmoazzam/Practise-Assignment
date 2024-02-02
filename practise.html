@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body,
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height:1000px;
+    background-color: white;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: black;
+    text-transform: uppercase;
+}
+.navbar ul li a {
+    color: #000;
+    font-size: 18px;
+}
+a:hover{
+    background-color:yellow;
+    border-radius:10px ;
+    border: 3px solid;
+}
+.container {
+    text-align: center;
+     background-image: url(https://th.bing.com/th/id/OIP.KpJ31dbN1NVRX_K9_CRBcgHaE8?rs=1&pid=ImgDetMain);
+}
+.content{
+    display: flex;
+}
+.heading{
+    text-align: center;
+    text-transform:uppercase ;
+    color: #fff;
+    text-shadow: 3px 3px 5px white;
+}
+.para{
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-position:fit-content;
+    background-size: 1500px 500px;
+    align-items: center;
+    color: #fff;
+    text-shadow: 3px 3px 5px white;
+}
+.btn{
+    background-color:#000;
+    color:#fff;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    text-shadow: 3px 3px 5px white;
+}
+.btn:hover{
+    background-color: #fff;
+    color:#000
+}
+.news{
+    display: flex;
+    background-color: #000;
+}
+.heading-news{
+    text-align: center;
+    text-transform:uppercase ;
+    color: #fff;
+    background-color: #000;
+    text-shadow: 2px 2px 5px white;
+}
+.para-two{
+    padding: 50px;
+    color: #fff;
+    text-shadow: 3px 3px 5px white;
+}
+.image{
+    padding: 50px;
+}
+.services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap :20px;
+}
+.contact{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact form{
+    display: flex;
+    flex-direction:column ;
+    max-width: 700px;
+    width: 100%;
+    padding: 30px 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contact form lable{
+    font-size: 15px;
+    margin-bottom: 5px;   
+}
+.contact form input{
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    outline: black;
+}
+.contact form textarea{
+    height: 90px;
+    font-size: 15px;
+    color:#000;
+    padding: 15px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2>Prectise</h2>
+            <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About US </a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <br><br>
+            <h1 class="heading">news</h1>
+            <div class="content">
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quae quod voluptatum quo error minima porro labore atque, voluptates corrupti dicta adipisci dolorum dolores vel assumenda necessitatibus accusantium fugiat mollitia Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, excepturi et. Rem sequi perspiciatis cupiditate esse inventore, doloribus sunt rerum. Aperiam impedit unde perferendis voluptatem sequi neque, nihil placeat molestias Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique molestiae officia rerum animi, dolor blanditiis natus nihil! Repellat vero esse expedita. Numquam necessitatibus impedit voluptas iste esse sequi harum quis Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque hic similique illum tempore architecto tempora aut alias nesciunt quibusdam. Fuga qui quos sit. Consequuntur voluptate odio illo quaerat, nemo voluptas Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem consectetur doloremque distinctio aperiam eos harum! Sapiente asperiores harum similique sint, alias corporis consequuntur possimus temporibus ullam doloribus veniam officia non.
+                <button class="btn">READ MORE</button></p>
+            </div>
+        </div>
+        <h1 class="heading-news">news</h1>
+        <div class="news">
+            <div class="news-div">
+                <p class="para-two">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit beatae voluptatum dignissimos molestias similique et tempore blanditiis pariatur tenetur veniam error ipsa temporibus facere, commodi ullam architecto id. Eveniet, est Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nihil, exercitationem praesentium quo eius minima assumenda dolor maxime? Illum quam ab vel fuga enim, qui sequi tempore debitis minima laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt in itaque accusamus suscipit. Dicta, quibusdam laudantium quas eligendi, explicabo nesciunt delectus maiores reiciendis iste, tempore voluptatibus ipsa sunt vero harum Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt explicabo dolorum in quod quo, ullam pariatur sunt modi quisquam harum libero aspernatur veniam neque iusto qui. Eius provident quia dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quod accusantium eum provident a architecto deleniti aut voluptas rem sit, magnam molestiae harum quas debitis praesentium necessitatibus! Sint, labore dolorem!</p>
+            </div>
+            <div class="image">
+                <img src="https://th.bing.com/th/id/OIP.uzbk47ZL5Kuk8WUaMUz3LAHaHa?w=185&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+            </div>
+        </div>
+        <br><br>
+        <section class="services-section">
+            <div class="services">
+                <div class="services-card">
+                    <h1> Heading</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis adipisci quod tempore nemo recusandae dolorem eligendi eaque ex cumque? Temporibus cumque aspernatur repellendus incidunt inventore sint reiciendis labore recusandae commodi?</p>
+                </div>
+                <div class="services-card">
+                    <h1> Heading</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis adipisci quod tempore nemo recusandae dolorem eligendi eaque ex cumque? Temporibus cumque aspernatur repellendus incidunt inventore sint reiciendis labore recusandae commodi?</p>
+                </div>
+                <div class="services-card">
+                    <h1> Heading</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis adipisci quod tempore nemo recusandae dolorem eligendi eaque ex cumque? Temporibus cumque aspernatur repellendus incidunt inventore sint reiciendis labore recusandae commodi?</p>
+                </div>
+        </div>
+    </section>
+    <section class="contact">
+        <form>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Enter your Name">
+            <lable for="email">Email</lable>
+            <input type="email" name="name" placeholder="Enter your Email">
+            <label for="message">Message</label>
+            <textarea name="Message" id="#" cols="30" rows="10" placeholder="Write your message">
+            </textarea>
+        </form>
+    </section>
+    </header>
+</body>
+</html>
